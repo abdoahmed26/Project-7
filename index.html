@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/project2.css">
+</head>
+<body>
+    <section>
+        <div class="head">
+            <h1>CRUDS</h1>
+            <p>CREATE READ UPDATE DELETE SEARCH</p>
+        </div>
+        <div class="input">
+            <form action="">
+                <div class="title">
+                    <input type="text" placeholder="title" class="tit">
+                </div>
+                <div class="puts">
+                    <input type="text" placeholder="price" class="price">
+                    <input type="text" placeholder="taxes" class="taxes">
+                    <input type="text" placeholder="ads" class="ads">
+                    <input type="text" placeholder="discount" class="disc">
+                    <span class="total">Total:</span>
+                </div>
+                <div class="cou">
+                    <input type="text" placeholder="count" class="count">
+                </div>
+                <div class="cat">
+                    <input type="text" placeholder="category" class="cgory">
+                </div>
+                <div class="sub">
+                    <input type="submit" value="Creat" class="creat">
+                    <input type="submit" value="Update" class="upd">
+                </div>
+            </form>
+        </div>
+        <div class="output">
+            <form action="">
+                <input type="search" placeholder="search" class="search">
+            </form>
+            <div class="sear">
+                <button class="sbt">Search By Title</button>
+                <button class="sbc">Search By Category</button>
+            </div>
+            <div class="dele">
+                <button>Delete All (0)</button>
+            </div>
+            <div class="tab">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>TITLE</th>
+                        <th>PRICE</th>
+                        <th>TAXES</th>
+                        <th>ADS</th>
+                        <th>DISCOUNT</th>
+                        <th>TOTAL</th>
+                        <th>CATEGORY</th>
+                        <th>UPDATE</th>
+                        <th>DELETE</th>
+                    </thead>
+                    <tbody class="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="js/project2.js"></script>
+</body>
+</html>
